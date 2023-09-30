@@ -1,0 +1,56 @@
+#root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgb(190, 228, 228);
+}
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  flex-direction: column;
+  /* background-color: red; */
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  margin-top: 90px;
+  box-shadow: 0 0 2px 0.5px rgb(195, 175, 175);
+
+}
+.card-title.h5::nth-child(2n){
+  font-size: 42px;
+}
+.card-img-top{
+  width: 200px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+h1{
+  position: absolute;
+  top: 0;
+  margin-bottom: 90px;
+  color: rgb(231, 240, 223);
+  width: 100%;
+  height: 80px;
+  opacity: 0.8;
+  border-radius:0 0 10px 10px;
+  box-shadow: 0 0 2px 3px rgb(243, 243, 246);
+  background-color: black;
+  padding-left: 30px;
+}
+
+
+.moi{
+  border-radius: 10px 100px / 120px;
+}
+.about{
+  width: 200px;
+  box-shadow: 0 0 12px 2px green;
+}
